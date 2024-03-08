@@ -25,7 +25,7 @@
 }
 
 [class^="col-"] {
-  flex: 0 auto;
+  flex: 0 0 auto;
   width: calc(100% / var(--column-size) * var(--column-number));
 }
 
@@ -65,7 +65,7 @@
 .col-12 {
   --column-number: 12;
 }
-
+/* S */
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
